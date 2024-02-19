@@ -1,0 +1,422 @@
+/*--------------------------------------------------------------
+## Site Wide Colors
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Site Wide Typography
+--------------------------------------------------------------*/
+/**
+ * Typography.com fonts
+ */
+.gotham-narrow-exlight {
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.gotham-narrow-light, .ff-base, .ff-sans {
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.gotham-narrow-light-italic {
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.gotham-narrow-book {
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.gotham-narrow-book-italic {
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.gotham-narrow-medium, .ff-sans-med {
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.gotham-narrow-medium-italic {
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
+  font-style: italic;
+  font-weight: 500 !important;
+}
+
+.gotham-narrow-bold {
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.gotham-narrow-bold-italic {
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.numbers-deuce, .ff-numeral {
+  font-family: "Numbers Deuce A", "Numbers Deuce B", monospace;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.numbers-redbird {
+  font-family: "Numbers Redbird A", "Numbers Redbird B", monospace;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.numbers-revenue {
+  font-family: "Numbers Revenue A", "Numbers Revenue B", monospace;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tungsten-light {
+  font-family: "Tungsten A", "Tungsten B", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.tungsten-book, .ff_homepage_feature_title {
+  font-family: "Tungsten A", "Tungsten B", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tungsten-semibold, .ff-heading {
+  font-family: "Tungsten A", "Tungsten B", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.ff-sans-con-light {
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.ff-sans-con-light-italic {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ff-sans-con {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.ff-sans-con-italic {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ff-sans-con-bold {
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.ff-sans-con-bold-italic {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.ff-sans-light {
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.ff-sans-light-italic {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ff-sans-italic {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ff-sand-med-italic {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ff-sans-bold {
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.ff-sans-bold-italic {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.ff-serif-light-italic {
+  font-family: serif;
+  font-weight: 0;
+}
+
+.ff-serif {
+  font-family: serif;
+  font-weight: 0;
+}
+
+.ff-serif-italic {
+  font-family: serif;
+  font-weight: 0;
+}
+
+.ff-serif-med {
+  font-family: serif;
+  font-weight: 0;
+}
+
+.ff-sand-med-italic {
+  font-family: serif;
+  font-weight: 0;
+}
+
+.ff-serif-bold {
+  font-family: serif;
+  font-weight: 0;
+}
+
+.ff-serif-bold-italic {
+  font-family: serif;
+  font-weight: 0;
+}
+
+.ff-monospace {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@font-face {
+  font-family: "star";
+  src: url("style/typography/fonts/star.eot");
+  src: url("style/typography/fonts/star.eot?#iefix") format("embedded-opentype"), url("style/typography/fonts/star.woff") format("woff"), url("style/typography/fonts/star.ttf") format("truetype"), url("style/typography/fonts/star.svg#star") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "WooCommerce";
+  src: url("style/typography/fonts/WooCommerce.eot");
+  src: url("style/typography/fonts/WooCommerce.eot?#iefix") format("embedded-opentype"), url("style/typography/fonts/WooCommerce.woff") format("woff"), url("style/typography/fonts/WooCommerce.ttf") format("truetype"), url("style/typography/fonts/WooCommerce.svg#WooCommerce") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*--------------------------------------------------------------
+## Call in all constants / mixins
+--------------------------------------------------------------*/
+.widget-header {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #666;
+  margin: 0;
+  text-align: left;
+  padding: 5px 0 0 0;
+}
+
+.the_breadcrumb {
+  font-size: 10.5px;
+  color: #AAA;
+  margin: 20px 0;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #EEE;
+}
+
+.the_breadcrumb_link {
+  color: #787878;
+}
+
+.the_breadcrumb_link_hover {
+  color: #444;
+}
+
+.button-primary, .list-event-container a.ccw_event_archive_more_info_link {
+  cursor: pointer;
+  /* Improves usability and consistency of cursor style between image-type 'input' and others */
+  box-shadow: none;
+  background-color: #EEE;
+  text-transform: uppercase;
+  color: #222;
+  font-size: 12px;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 0 10px 0 0;
+  line-height: 100%;
+  padding: 10px 10px 8px;
+  border: 2px solid #0F3849;
+  text-shadow: none;
+  box-sizing: border-box;
+}
+
+.button-primary-hover, .list-event-container a.ccw_event_archive_more_info_link:hover {
+  background-color: #0F3849;
+  color: #FAFAFA;
+  text-shadow: none;
+  text-decoration: none;
+  border: 2px solid #0F3849;
+}
+
+.button-secondary {
+  display: inline-block;
+  background-color: #EEE;
+  color: #0F3849;
+  margin: 5px 10px 5px 0;
+  line-height: 100%;
+  padding: 10px 10px 7px 10px;
+}
+
+.button-secondary-hover {
+  text-decoration: none;
+  color: #EEE;
+  background-color: #0F3849;
+}
+
+table.event-table tbody tr:nth-child(2n) th, table.event-table tbody tr:nth-child(2n) td {
+  background-color: #FFF;
+}
+table.event-table tbody tr:last-child th:first-child {
+  border-bottom: 2px solid #EEE;
+}
+table.event-table tbody tr:last-child td:last-child {
+  border-bottom: 2px solid #EEE;
+}
+table.event-table tbody tr th {
+  background-color: #FFF;
+  border-bottom: 2px solid #EEE;
+  width: 180px;
+}
+table.event-table tbody tr td {
+  background-color: #FFF;
+  border-bottom: 2px solid #EEE;
+}
+table.event-table tbody tr td p:first-child {
+  margin-top: 0;
+}
+
+.list-event-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.list-event-container .entry-content {
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+.list-event-container .entry-header {
+  width: 100%;
+}
+.list-event-container .ccw-event-name {
+  width: 100%;
+}
+.list-event-container .ccw-event-name a {
+  background-color: rgba(255, 255, 255, 0);
+}
+.list-event-container .ccw-event-name a:visited {
+  background-color: rgba(255, 255, 255, 0);
+}
+@media only screen and (max-width: 600px) {
+  .list-event-container .ccw-event-name {
+    text-align: center;
+  }
+}
+.list-event-container .ccw-event-name .ccw-event-name-date {
+  float: right;
+}
+@media only screen and (max-width: 600px) {
+  .list-event-container .ccw-event-name .ccw-event-name-date {
+    float: none;
+    display: block;
+  }
+}
+.list-event-container .event-image {
+  width: 22%;
+  margin: 20px 3% 0 0;
+}
+@media only screen and (max-width: 600px) {
+  .list-event-container .event-image {
+    width: 100%;
+  }
+  .list-event-container .event-image img {
+    max-width: 200px;
+    margin: auto;
+  }
+}
+.list-event-container .event-info-container {
+  width: 75%;
+}
+@media only screen and (max-width: 600px) {
+  .list-event-container .event-info-container {
+    width: 100%;
+  }
+}
+.list-event-container .event-info-container .the-info {
+  margin: 20px;
+}
+.list-event-container a.ccw_event_archive_more_info_link {
+  font-size: 14px;
+  background-color: #EEE;
+}
+.list-event-container a.ccw_event_archive_more_info_link:visited {
+  background-color: #EEE;
+}
+.list-event-container a.ccw_event_archive_more_info_link:hover {
+  background-color: #0F3849;
+}
+
+.ccw-event-name {
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .ccw-event-name {
+    text-align: center;
+  }
+}
+.ccw-event-name .ccw-event-name-date {
+  float: right;
+}
+@media only screen and (max-width: 600px) {
+  .ccw-event-name .ccw-event-name-date {
+    float: none;
+    display: block;
+  }
+}
+
+.past-events-container article {
+  padding-bottom: 10px;
+}
+.past-events-container article header a {
+  display: block;
+  padding: 0 10px;
+}
+.past-events-container article header a:hover {
+  text-decoration: none;
+}
+
+.email-signup_events {
+  box-sizing: border-box;
+  border: 2px solid #EEE;
+  padding: 10px 30px 0px;
+}
+.email-signup_events h3 {
+  text-align: center;
+  font-size: 1.9em;
+}
+
+/*# sourceMappingURL=events.css.map */

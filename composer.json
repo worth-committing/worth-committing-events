@@ -1,0 +1,29 @@
+{
+  "name": "worth-committing/events",
+  "description": "Worth Committing: Events",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "WorthCommitting\\Events\\": ".",
+      "WorthCommitting\\Events\\Admin\\": "./admin",
+      "WorthCommitting\\Events\\Frontend\\": "./src/frontend",
+      "WorthCommitting\\Events\\Metadata\\": "./src/metadata",
+      "WorthCommitting\\Events\\Shortcodes\\": "./src/shortcodes",
+      "WorthCommitting\\Events\\Utilities\\": "./src/utilities",
+      "WorthCommitting\\Events\\WordPress\\": "./src/wordpress",
+      "WorthCommitting\\Events\\MyAccount\\": "./src/my-account"
+    }
+  },
+  "authors": [
+    {
+      "name": "ericfrisino",
+      "email": "eric@comfortclothweaving.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "3.*",
+    "gamajo/template-loader": "^1.3",
+    "nesbot/carbon": "^2.68"
+  }
+}

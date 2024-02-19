@@ -1,0 +1,171 @@
+@import "../../../themes/comfortcloth-inc/style/_base-styles/_base-styles.scss";
+
+table.event-table {
+	tbody {
+		tr {
+
+			&:nth-child(2n) {
+				th, td {
+					background-color: #FFF;
+				}
+			}
+
+			&:last-child {
+				th:first-child {
+					border-bottom: 2px solid #EEE;
+				}
+
+				td:last-child {
+					border-bottom: 2px solid #EEE;
+				}
+			}
+
+			th {
+				background-color: #FFF;
+				border-bottom: 2px solid #EEE;
+				width: 180px;
+			} // th
+
+			td {
+				background-color: #FFF;
+				border-bottom: 2px solid #EEE;
+
+				p:first-child {
+					margin-top: 0;
+				}
+			} // td
+		} // tr
+	} // tbody
+} // table.event-table
+
+.list-event-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-bottom: 50px;
+
+	.entry-content {
+		margin: 0;
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.entry-header {
+		width: 100%;
+	}
+
+	.ccw-event-name {
+		width: 100%;
+		//margin-bottom: 20px;
+
+		a {
+			background-color: rgba( 255, 255, 255, 0 );
+
+			&:visited {
+				background-color: rgba( 255, 255, 255, 0 );
+			}
+		}
+
+		@media only screen and (max-width: 600px) {
+			text-align: center;
+		}
+
+		.ccw-event-name-date {
+			float: right;
+
+			@media only screen and (max-width: 600px) {
+				float:none;
+				display: block;
+			}
+
+		}
+	}// .ccw-event-name
+
+	.event-image {
+		width: 22%;
+		margin: 20px 3% 0 0;
+
+		@media only screen and (max-width: 600px) {
+			width: 100%;
+
+			img {
+				max-width: 200px;
+				margin: auto;
+			}
+		}
+	}
+
+	.event-info-container {
+		width: 75%;
+
+		@media only screen and (max-width: 600px) {
+			width: 100%;
+		}
+
+		.the-info {
+			margin: 20px;
+		}
+
+	}
+
+	a.ccw_event_archive_more_info_link {
+		font-size: 14px;
+		background-color: $grey-lighter;
+		@extend .button-primary;
+
+		&:visited {
+			background-color: $grey-lighter;
+		}
+
+		&:hover {
+			background-color: $secondary;
+			@extend .button-primary-hover;
+		}
+	}
+}// .event-container
+
+.ccw-event-name {
+	width: 100%;
+	//margin-bottom: 20px;
+
+	@media only screen and (max-width: 600px) {
+		text-align: center;
+	}
+
+	.ccw-event-name-date {
+		float: right;
+
+		@media only screen and (max-width: 600px) {
+			float:none;
+			display: block;
+		}
+
+	}
+}// .ccw-event-name
+
+.past-events-container {
+	article {
+		padding-bottom: 10px;
+		header {
+			a {
+				display: block;
+				padding: 0 10px;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+
+.email-signup_events {
+	box-sizing: border-box;
+	border: 2px solid $grey_lighter;
+	padding: 10px 30px 0px;
+
+	h3 {
+		text-align: center;
+		font-size: $font-size-h4;
+	}
+}
